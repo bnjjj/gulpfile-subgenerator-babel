@@ -6,6 +6,7 @@
 
 #Tasks generated
 + gulp babel
++ gulp babel:watch
 
 #Contributing
 + In the templates directory you'll see all of the task code about babel
