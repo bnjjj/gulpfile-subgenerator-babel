@@ -14,12 +14,12 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     self.prompt([{
       type: 'value',
       name: 'src',
-      message: 'What is your relative directory path for your source files of js (babel) ?',
+      message: 'What is the relative directory path for your js source files (babel)?',
       default: './app/**/*.js'
     }, {
       type: 'value',
       name: 'dist',
-      message: 'What is your relative directory path for your dist files of js (babel) ?',
+      message: 'What is the relative directory path for your js dist files (babel)??',
       default: './dist/es6'
     }], function (answers) {
       _.assign(self.vars, answers);
