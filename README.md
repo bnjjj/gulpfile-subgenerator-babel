@@ -16,5 +16,4 @@
 + [gulpfile-generator-advanced](https://github.com/bnjjj/generator-gulpfile-advanced)
 
 -------------
-
 Made by [Coenen Benjamin](https://twitter.com/BnJ25) with love
