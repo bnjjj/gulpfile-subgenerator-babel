@@ -9,5 +9,6 @@ gulp.task('babel', function () {
 });
 
 gulp.task('babel:watch', function () {
+  gulp.start('babel');
   gulp.watch('<%= src %>', ['babel']);
 });
